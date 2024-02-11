@@ -12,26 +12,6 @@ body {
   color: var(--secondary-font-color);
 }
 
-h1,
-h2 {
-  font-family: var(--heading-font-family);
-  color: var(--primary-font-color);
-  font-weight: bold;
-}
-
-h1 {
-  font-size: 96px;
-}
-
-h2 {
-  font-size: 64px;
-}
-
-p {
-  font-size: 16px;
-  line-height: 30px;
-}
-
 nav {
   padding: 15px;
 }
@@ -57,6 +37,72 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
+}
+
+h1,
+h2 {
+  font-family: var(--heading-font-family);
+  color: var(--primary-font-color);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box h4 {
+  font-family: var(--heading-font-family);
+  font-size: 48px;
+  color: var(--primary-font-color);
+  font-weight: bold;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--primary-font-color);
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background: var(--branding-color);
 }
 
 .hero {
@@ -107,9 +153,25 @@ nav li.active a {
   padding: 18px 30px;
 }
 
+.btn-branding:hover {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 18px 30px;
+}
+
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 18px 30px;
+}
+
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: #ffff;
   font-size: 18px;
   border-radius: 4px;
   padding: 18px 30px;
